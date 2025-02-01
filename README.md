@@ -3,6 +3,13 @@
 Have you ever been super happy with your viewport then press render and there are tons of random objects or stuff is hidden...?
 Me too.
 
+
+
+https://github.com/user-attachments/assets/5e6dd7d1-e27f-4fb7-ac7e-bde7d62cdf94
+
+
+
+
 ## To Install
 
 - Install it via **Edit > Preferences > Add-ons > Install…** and enable the add-on.
