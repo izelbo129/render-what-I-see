@@ -3,12 +3,7 @@
 Have you ever been super happy with your viewport then press render and there are tons of random objects or stuff is hidden...?
 Me too.
 
-
-
-https://github.com/user-attachments/assets/5e6dd7d1-e27f-4fb7-ac7e-bde7d62cdf94
-
-
-
+https://github.com/user-attachments/assets/a85e129e-3b4b-40de-b781-0ace56157ce5
 
 ## To Install
 
