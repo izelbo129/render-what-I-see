@@ -13,4 +13,5 @@ After installation, a Render Tab will appear on your "n" menu on the 3D view. Si
 
 
 TODO:
-probably going to move the location but can't figure out how to get it to show up in the top bar yet 
+- probably going to move the location but can't figure out how to get it to show up in the top bar yet 
+- make undoing less annoying
