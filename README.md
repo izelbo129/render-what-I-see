@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/a85e129e-3b4b-40de-b781-0ace56157ce5
 
 ## Usage
 
-After installation, a Render Tab will appear on your "n" menu on the 3D view. Simply click this and press "Sync Visibility"
+After installation, a Render Tab will appear on your "n" menu on the 3D view. Simply click this and press "Sync Camera Visibility"
 
 
 TODO:
