@@ -35,24 +35,17 @@ class OBJECT_OT_sync_visibility(bpy.types.Operator):
         self.report({'INFO'}, "Render visibility synced with viewport visibility.")
         return {'FINISHED'}
 
-class VIEW3D_PT_sync_visibility_panel(bpy.types.Panel):
-    bl_label = "Render what I see"
-    bl_idname = "VIEW3D_PT_sync_visibility_panel"
-    bl_space_type = 'VIEW_3D'
-    bl_region_type = 'UI'
-    bl_category = 'Render'
-
-    def draw(self, context):
-        layout = self.layout
-        layout.operator("object.sync_visibility", text="Sync Camera Visibility")
+# Adds a reload button to the Outliner header. Due to Blender API limitations, it's always at the end
+def draw_outliner_header(self, context):
+    self.layout.operator("object.sync_visibility", icon="FILE_REFRESH", text="")
 
 def register():
     bpy.utils.register_class(OBJECT_OT_sync_visibility)
-    bpy.utils.register_class(VIEW3D_PT_sync_visibility_panel)
+    bpy.types.OUTLINER_HT_header.append(draw_outliner_header)
 
 def unregister():
     bpy.utils.unregister_class(VIEW3D_PT_sync_visibility_panel)
-    bpy.utils.unregister_class(OBJECT_OT_sync_visibility)
+    bpy.types.OUTLINER_HT_header.remove(draw_outliner_header)
 
 if __name__ == "__main__":
     register()
