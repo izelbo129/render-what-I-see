@@ -2,7 +2,7 @@ bl_info = {
     "name": "Render what I see",
     "author": "Ian Zelbo",
     "version": (1, 0),
-    "blender": (4, 20, 0),
+    "blender": (4, 3, 0),
     "location": "View3D > Sidebar > Render Tab",
     "description": "Sync render visibility with viewport visibility.",
 }
